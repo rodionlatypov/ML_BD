@@ -1,6 +1,6 @@
 # ML Big Data: Home Assignment 1
 
-**Part 1**
+## Part 1
 
 ![Namenode](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Namenode.png)
 
@@ -10,9 +10,10 @@
 
 ![Browse_directory](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Browse_directory.png)
 
-**Part 2**
+## Part 2
 
-Работа с флагами -mkdir и -touchz
+**Работа с флагами -mkdir и -touchz**
+
 1. hdfs dfs -mkdir /test_folder
 2. hdfs dfs -mkdir /test_folder/nested_tst_folder
 3. Trash - папка с удаленными файлами. Использовать команду -skipTrash: hdfs dfs -rm -skipTrash <FILE>
@@ -20,18 +21,24 @@
 5. hdfs dfs -rm -skipTrash /test_folder/nested_tst_folder/empty_file
 6. hdfs dfs -rmr -skipTrash /test_folder
 
-Работа с флагами -put, -cat, -tail, -cp
+**Работа с флагами -put, -cat, -tail, -cp**
+   
 1. hdfs dfs -mkdir /data_folder; hdfs dfs -put AB_NYC_2019.csv /data_folder/
 2. hdfs dfs -cat /data_folder/AB_NYC_2019.csv
 3. hdfs dfs -cat /data_folder/AB_NYC_2019.csv | tail
 4. hdfs dfs -cat /data_folder/AB_NYC_2019.csv | head
 5. hdfs dfs -cp /data_folder/AB_NYC_2019.csv /
 
-Работа с replication factor, fsck
+**Работа с replication factor, fsck**
+   
 1. hdfs dfs -setrep -w 2 /data_folder/AB_NYC_2019.csv
+   
    WARNING: the waiting time may be long for DECREASING the number of replications.
+   
 2. hdfs fsck / -files -blocks
+   
    Последнее сообщение: The filesystem under path '/' is HEALTHY
+   
 3. hdfs fsck /data_folder -blockId blk_1073741835
 
    Block Id: blk_1073741835
