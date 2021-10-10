@@ -53,3 +53,9 @@
    Block replica on datanode/rack: 24cc15ebea83/default-rack is HEALTHY
    Block replica on datanode/rack: 2921f95e3b07/default-rack is HEALTHY
    Block replica on datanode/rack: 219c861da2c0/default-rack is HEALTHY
+
+   
+## Part 3
+   
+![Mean_variance](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Mean_variance.png)
+   
