@@ -8,7 +8,7 @@
 
 ## Part 1
 
-![Namenode](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Namenode.png)
+![Namenode](https://github.com/rodionlatypov/ML_BD/blob/main/HA1/screenshots/Namenode.png)
 
 ![Resoursemanager](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Resourcemanager.png)
 
