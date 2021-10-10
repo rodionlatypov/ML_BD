@@ -1,5 +1,7 @@
 # ML Big Data: Home Assignment 1
 
+**Файлы и код лежат в папке HA1**
+
 ## Part 1
 
 ![Namenode](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Namenode.png)
