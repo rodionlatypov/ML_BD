@@ -12,7 +12,7 @@
 
 ![Resoursemanager](https://github.com/rodionlatypov/ML_BD/blob/main/HA1/screenshots/Resourcemanager.png)
 
-![Datanodes](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Datanodes.png)
+![Datanodes](https://github.com/rodionlatypov/ML_BD/blob/main/HA1/screenshots/Datanodes.png)
 
 ![Browse_directory](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Browse_directory.png)
 
