@@ -8,13 +8,13 @@
 
 ## Part 1
 
-![Namenode](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Namenode.png)
+![Namenode](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Namenode.png)
 
-![Resoursemanager](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Resourcemanager.png)
+![Resoursemanager](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Resourcemanager.png)
 
-![Datanodes](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Datanodes.png)
+![Datanodes](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Datanodes.png)
 
-![Browse_directory](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Browse_directory.png)
+![Browse_directory](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Browse_directory.png)
 
 ## Part 2
 
@@ -65,5 +65,5 @@
    
 Сравнение среднего и дисперсии по mapreduce и посчитанного с помощью numpy:
    
-![Mean_variance](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Mean_variance.png)
+![Mean_variance](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Mean_variance.png)
    
