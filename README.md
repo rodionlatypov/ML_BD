@@ -1,8 +1,8 @@
-**ML Big Data: Home Assignment 1**
+#ML Big Data: Home Assignment 1**
 
 **Part 1**
 
-
+![Namenode](https://github.com/rodionlatypov/ML_BD/tree/HA1/HA1/screenshots/Namenode.png)
 
 
 **Part 2**
