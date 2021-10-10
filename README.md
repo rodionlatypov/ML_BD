@@ -65,5 +65,5 @@
    
 Сравнение среднего и дисперсии по mapreduce и посчитанного с помощью numpy:
    
-![Mean_variance](https://github.com/rodionlatypov/ML_BD/tree/main/HA1/screenshots/Mean_variance.png)
+![Mean_variance](https://github.com/rodionlatypov/ML_BD/blob/main/HA1/screenshots/Mean_variance.png)
    
