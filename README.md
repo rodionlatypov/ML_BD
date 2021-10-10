@@ -32,9 +32,13 @@
 **Работа с replication factor, fsck**
    
 1. hdfs dfs -setrep -w 2 /data_folder/AB_NYC_2019.csv
+   
    WARNING: the waiting time may be long for DECREASING the number of replications.
+   
 2. hdfs fsck / -files -blocks
+   
    Последнее сообщение: The filesystem under path '/' is HEALTHY
+   
 3. hdfs fsck /data_folder -blockId blk_1073741835
 
    Block Id: blk_1073741835
