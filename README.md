@@ -1,6 +1,6 @@
 # ML Big Data: Home Assignment 1
 
-**Файлы и код лежат в папке HA1**
+**Файлы и код лежат в папке HA1**: https://github.com/rodionlatypov/ML_BD/tree/main/HA1
 
 Цены в файле **prices.txt**
 
