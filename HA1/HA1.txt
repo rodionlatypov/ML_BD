@@ -1,17 +1,3 @@
-# ML Big Data: Home Assignment 1
-
-**Part 1**
-
-![Namenode](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Namenode.png)
-
-![Resoursemanager](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Resourcemanager.png)
-
-![Datanodes](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Datanodes.png)
-
-![Browse_directory](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Browse_directory.png)
-
-**Part 2**
-
 Работа с флагами -mkdir и -touchz
 1. hdfs dfs -mkdir /test_folder
 2. hdfs dfs -mkdir /test_folder/nested_tst_folder
