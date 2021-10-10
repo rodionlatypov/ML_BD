@@ -1,6 +1,7 @@
 # ML Big Data: Home Assignment 1
 
-**Файлы и код лежат в папке HA1**
+**Файлы и код лежат в папке HA1.**
+Цены в файле **prices.txt**.
 
 ## Part 1
 
@@ -58,6 +59,8 @@
 
    
 ## Part 3
+   
+Сравнение среднего и дисперсии по mapreduce и посчитанного с помощью numpy:
    
 ![Mean_variance](https://github.com/rodionlatypov/ML_BD/blob/HA1/HA1/screenshots/Mean_variance.png)
    
