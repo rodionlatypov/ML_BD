@@ -4,6 +4,7 @@
 
 **Файл с запросами и результатами**: https://github.com/rodionlatypov/ML_BD/blob/HA2/Queries
 
+
 ## Блок 1
 
 **Развернул локальный Hive-сервер**
@@ -17,6 +18,7 @@
 **Подключился к нему через JDBC**
 
 ![Beeline](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Beeline.png)
+
 
 ## Блок 2
 
@@ -34,7 +36,6 @@
 **Пример запроса**
 
 ![Query example](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Query%20example.png)
-
 
 ### 2)
 
@@ -67,8 +68,6 @@ from artists
 where listeners_lastfm in (SELECT max(listeners_lastfm) FROM artists)
 
 
-country_mb
- 
-
  	country_mb
 1	United Kingdom
+
