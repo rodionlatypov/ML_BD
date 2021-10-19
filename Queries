@@ -1,0 +1,31 @@
+a)
+
+select artist_mb
+from artists
+where scrobbles_lastfm in (SELECT max(scrobbles_lastfm) FROM artists)
+
+ 
+ 	artist_mb
+1	The Beatles
+
+
+b)
+
+select a.col, count(a.col) as cnt
+from (select explode(split(tags_lastfm, ';')) from artists) a
+group by a.col
+order by cnt desc
+
+
+seen live	81278
+
+
+d) Страна исполнителя с максимальным числом слушателей на last_fm
+
+select country_mb
+from artists
+where listeners_lastfm in (SELECT max(listeners_lastfm) FROM artists)
+ 
+
+ 	country_mb
+1	United Kingdom
