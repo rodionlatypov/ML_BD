@@ -1,4 +1,4 @@
-# ML Big Data: Home Assignment 1
+# ML Big Data: Home Assignment 2
 
 **Скриншоты лежат здесь**: https://github.com/rodionlatypov/ML_BD/tree/HA2/Screenshots
 
