@@ -25,11 +25,7 @@ d) Страна исполнителя с максимальным числом 
 select country_mb
 from artists
 where listeners_lastfm in (SELECT max(listeners_lastfm) FROM artists)
-
-
-country_mb
  
 
  	country_mb
 1	United Kingdom
-
