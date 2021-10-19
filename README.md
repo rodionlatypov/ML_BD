@@ -1,6 +1,7 @@
 # ML Big Data: Home Assignment 2
 
 **Скриншоты лежат здесь**: https://github.com/rodionlatypov/ML_BD/tree/HA2/Screenshots
+**Файл с запросами и результатами**: https://github.com/rodionlatypov/ML_BD/blob/HA2/Queries
 
 ## Блок 1
 
