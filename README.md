@@ -2,7 +2,7 @@
 
 **Скриншоты лежат здесь**: https://github.com/rodionlatypov/ML_BD/tree/HA2/Screenshots
 
-**Файл с запросами и результатами**: https://github.com/rodionlatypov/ML_BD/blob/HA2/Queries
+**Запросы и их результаты**: https://github.com/rodionlatypov/ML_BD/blob/HA2/Queries
 
 
 ## Блок 1
