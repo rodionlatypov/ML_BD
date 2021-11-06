@@ -1,73 +1,20 @@
-# ML Big Data: Home Assignment 2
+# ML Big Data: Home Assignment 3
 
-**Скриншоты лежат здесь**: https://github.com/rodionlatypov/ML_BD/tree/HA2/Screenshots
+Код лежит в файле: https://github.com/rodionlatypov/ML_BD/blob/HA3/LinearRegression.sc
 
-**Запросы и их результаты**: https://github.com/rodionlatypov/ML_BD/blob/HA2/Queries
+Данные брал отсюда: https://www.kaggle.com/kumarajarshi/life-expectancy-who/version/1
 
+Использовал только две фичи (adult mortality и GDP), но код не ограничивает кол-во фитчей. 
 
-## Блок 1
+Функция fit возвращает оценки коэффициентов регрессии (первый коэффициент - intercept). Функия predict - оцененные целевые переменные по X-ам и коэффициентам. 
 
-**Развернул локальный Hive-сервер**
-
-![Hive](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Hive.png)
-
-**Подключился к нему через Hue**
-
-![Hue](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Hue.png)
-
-**Подключился к нему через JDBC**
-
-![Beeline](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Beeline.png)
+Результаты выглядят следующим образом (посчитал R-squared - меру фита - для train и test выборок как подтверждение, что fit и predict работают и получается примерно одинаковый результат для train и test выборок): https://github.com/rodionlatypov/ML_BD/blob/HA3/results.txt
 
 
-## Блок 2
+**R-squared on a train set, 0.49592735676330435**
 
-### 1)
-
-**Взгляд на таблицу через JDBC**
-
-![DB through jdbc](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Database%20in%20beeline.png)
-
-**Через Hue**
-
-![DB in Hue](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Database%20in%20hue.png)
+**R-squared on a test set, 0.518582359056066**
 
 
-**Пример запроса**
-
-![Query example](https://github.com/rodionlatypov/ML_BD/blob/HA2/Screenshots/Query%20example.png)
-
-### 2)
-
-a)
-
-select artist_mb
-from artists
-where scrobbles_lastfm in (SELECT max(scrobbles_lastfm) FROM artists)
-
- 
- 	artist_mb
-1	The Beatles
-
-
-b)
-
-select a.col, count(a.col) as cnt
-from (select explode(split(tags_lastfm, ';')) from artists) a
-group by a.col
-order by cnt desc
-
-
-seen live	81278
-
-
-d) Страна исполнителя с максимальным числом слушателей на last_fm
-
-select country_mb
-from artists
-where listeners_lastfm in (SELECT max(listeners_lastfm) FROM artists)
-
-
- 	country_mb
-1	United Kingdom
-
+train.csv https://github.com/rodionlatypov/ML_BD/blob/HA3/train.csv
+test.csv https://github.com/rodionlatypov/ML_BD/blob/HA3/test.csv
