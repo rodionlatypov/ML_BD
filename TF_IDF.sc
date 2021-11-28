@@ -13,7 +13,7 @@ val df = spark.read
   .option("sep", ",")
   .csv("C:\\Users\\rlaty\\MADE\\ML_BD\\HA4\\tripadvisor_hotel_reviews.csv")
 
-val  docCount = df.count()
+val docCount = df.count()
 
 val normalizeString = functions.udf { (s: String) => {
   s.replaceAll("[^0-9a-zA-Z\\s$]", "")
