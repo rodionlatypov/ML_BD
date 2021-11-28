@@ -1,2 +1,0 @@
-R-squared on a train set, 0.49592735676330435
-R-squared on a test set, 0.518582359056066
