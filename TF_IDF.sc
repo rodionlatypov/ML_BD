@@ -32,7 +32,7 @@ val dfClean = df.select(normalizeString(col("Review")).as("Review_clean"))
 
 val dfCleanToLower = dfClean
   .select(lower(col("Review_clean")).as("Review_lower"))
-  .select(split(col("Review_lower")," ").as("Word_list"))
+  .select(split(col("Review_lower"), " ").as("Word_list"))
   .withColumn("doc_id", monotonically_increasing_id())
 
 val dfCleanedExploded = dfCleanToLower.withColumn("Word_list", explode(dfCleanToLower.col("Word_list")))
@@ -48,7 +48,7 @@ val dfTf = dfWordCount
   .withColumn("tf", col("num_word") / col("words_in_doc"))
 
 val dfDocFreq = dfCleanedExploded.groupBy("Word_list")
-  .agg(countDistinct("doc_id") as  "df")
+  .agg(countDistinct("doc_id") as "df")
   .orderBy(desc("df"))
   .limit(100)
   .withColumn("idf", calculateIdfUdf(col("df")))
