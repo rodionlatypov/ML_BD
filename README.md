@@ -1,9 +1,11 @@
 # ML Big Data: Home Assignment 5
 
-sc notebook: https://github.com/rodionlatypov/ML_BD/blob/main/TF_IDF.sc
+sc notebook: https://github.com/rodionlatypov/ML_BD/blob/HA5/LinearRegression.sc
 
-tf_idf result:
+Gradient descent stops at convergence (when pre-defined tolerance is reached). Unless GD converges, computation stops at a pre-defined step.
 
-![RegressionBreeze](https://github.com/rodionlatypov/ML_BD/blob/main/tf_idf.jpg)
+Regression results:
 
-![]
+https://github.com/rodionlatypov/ML_BD/blob/HA5/RegressionWeights.txt
+
+![RegressionBreezeWeights](https://github.com/rodionlatypov/ML_BD/blob/HA5/results.jpg)
