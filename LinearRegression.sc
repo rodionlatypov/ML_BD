@@ -13,7 +13,7 @@ def generateX(N: Int,
 def initY(w: DenseVector[Double],
           X: DenseMatrix[Double],
           N: Int): DenseVector[Double] = {
-  val gau=Gaussian(0.0,1.0)
+  val gau = Gaussian(0.0, 1.0)
   var vecEps = DenseVector(gau.sample(N).toArray)
   var y = X * w + vecEps
   return y
